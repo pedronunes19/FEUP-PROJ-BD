@@ -1,4 +1,4 @@
--- nome das paragens pertencentes a uma zona
+--nome das paragens pertencentes a uma zona
 .mode columns
 .headers on
 .nullvalue NULL

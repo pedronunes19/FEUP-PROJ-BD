@@ -1,2 +1,3 @@
 # FEUP-PROJ-BD
-Project for BD (Bases de Dados/ Databases)
+Project for BD class
+(Bases de Dados/ Databases)

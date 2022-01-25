@@ -12,7 +12,7 @@ create table Linha(
 drop table if exists Paragem;
 create table Paragem(
     idParagem int primary key,
-    Nome varchar(30) not null unique,
+    Nome varchar(30) not null,
     EmFuncionamento int not null,
     idZona int references Zona not null,
     constraint bool check(EmFuncionamento=0 or EmFuncionamento=1)
@@ -67,7 +67,7 @@ create table Passagem(
     idHorário int references Horário not null,
     idLinha int references Linha not null,
     idParagem int references Paragem not null,
-    Hora time not null  -- time doesn't really work as desired but I suppose we can use constraints
+    Hora time -- time doesn't really work as desired but I suppose we can use constraints
 );
 
 
@@ -104,7 +104,7 @@ create table Condutor(
 );
 
 
-git ad
+
 --associações
 
 drop table if exists LinhaDoAutocarro;
@@ -142,7 +142,6 @@ create table DesativaçãoParagem(
     idALteraçãoServiço int references AlteraçãoServiço primary key not null,
     idParagem int references Paragem not null
 );
-
 
 
 

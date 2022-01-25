@@ -3,5 +3,5 @@
 .headers on
 .nullvalue NULL
 
-select Zona.Nome, group_concat(Paragem.Nome, '; ') as paragem from Zona, Paragem where Zona.idZona=Paragem.idZona group by Zona.Nome;
-
+select Zona.Nome, group_concat(Paragem.Nome, '; ') as Paragens
+from Zona, Paragem where Zona.idZona=Paragem.idZona group by Zona.Nome;

@@ -12,7 +12,7 @@ create table Linha(
 drop table if exists Paragem;
 create table Paragem(
     idParagem int primary key,
-    Nome varchar(30) not null unique,
+    Nome varchar(30) not null,
     EmFuncionamento int not null,
     idZona int references Zona not null,
     constraint bool check(EmFuncionamento=0 or EmFuncionamento=1)
@@ -104,7 +104,7 @@ create table Condutor(
 );
 
 
-git ad
+
 --associações
 
 drop table if exists LinhaDoAutocarro;

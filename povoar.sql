@@ -3148,20 +3148,15 @@ insert into TipoAlteraçãoServiço values(1, 'Paragem');
 insert into TipoAlteraçãoServiço values(2, 'Linha');
 insert into TipoAlteraçãoServiço values(3, 'Horário');
 
-
 --AlteraçãoServiço
-insert into AlteraçãoServiço values(1, 'Desativação Paragem Passeio Alegre Obras', '2021-12-13', '2021-12-14', 1);
+insert into AlteraçãoServiço values(1, 'Desativação Paragem Passeio Alegre Obras', '2022-01-24', '2022-01-30', 1);
 insert into AlteraçãoServiço values(2, 'Desativação Linha 202', '2021-12-15', '2021-12-16', 2);
 insert into AlteraçãoServiço values(3, 'Falha Autocarro 202 Passeio Alegre 06:00', '2021-12-17', '2021-12-18', 3);
 insert into AlteraçãoServiço values(4, 'Falha Autocarro 202 Aliados 06:15 Sábado', '2021-12-18', '2021-12-19', 3);
 
 
 --AlteraçãoHorário
-insert into AlteraçãoHorário values(3, 1);
-insert into AlteraçãoHorário values(4, 130);
 
 --DesativaçãoLinha
-insert into DesativaçãoLinha values(2, 1);
 
 --DesativaçãoParagem
-insert into DesativaçãoParagem values(1, 1);

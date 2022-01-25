@@ -104,7 +104,7 @@ create table Condutor(
 );
 
 
-
+git ad
 --associações
 
 drop table if exists LinhaDoAutocarro;

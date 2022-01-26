@@ -67,7 +67,7 @@ create table Passagem(
     idHorário int references Horário not null,
     idLinha int references Linha not null,
     idParagem int references Paragem not null,
-    Hora time -- time doesn't really work as desired but I suppose we can use constraints
+    Hora time not null
 );
 
 
@@ -142,11 +142,3 @@ create table DesativaçãoParagem(
     idALteraçãoServiço int references AlteraçãoServiço primary key not null,
     idParagem int references Paragem not null
 );
-
-
-
-
-
-
-
-

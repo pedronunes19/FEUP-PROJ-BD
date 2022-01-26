@@ -2577,6 +2577,7 @@ insert into Linha values(55, 907, 1, 404, 2410);
 insert into Condutor values(1, 'Tiago Araújo', '919874321', '1993-12-06', 'Rua de Passos Manuel 137, Porto', 'Portugues', '033430166');
 insert into Condutor values(2, 'Ana Guedes', '911345987', '1995-06-03', 'Rua dos Mártires da Liberdade 134, Porto', 'Portugues', '166430033');
 insert into Condutor values(3, 'Bernardo Silva', '923546798', '1997-03-01', 'Rua da Madeira 84, Porto', 'Portugues', '642834961');
+insert into Condutor values(4, 'Nuno Pereira', '938294812', '1990-10-24', 'Parque Norte R. de Montecastro, Braga', 'Portugues', '384723396');
 
 
 --TipoAutocarro

@@ -6,6 +6,6 @@ AND
 (SELECT DataFinal FROM AlteraçãoServiço WHERE NEW.idAlteraçãoServiço=AlteraçãoServiço.idAlteraçãoServiço) >= DATE('now'))
 BEGIN
 	UPDATE Passagem
-		SET Hora = null
+		SET Hora = time(hora, '+20 minutes')
 		WHERE Passagem.idPassagem = new.idPassagem;
 END;
